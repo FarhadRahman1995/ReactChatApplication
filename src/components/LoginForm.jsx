@@ -1,9 +1,10 @@
+import React from 'react';
 import { useState } from 'react';
 import axios from 'axios';
 
-const projectID = '1b7801d6-8a66-4be4-a442-89219d833dfc';
+const projectID = 'c5e23a97-e044-4d65-9da5-19de07465c78';
 
-const Modal = () => {
+const LoginForm = () => {
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
   const [error, setError] = useState('');
@@ -46,4 +47,4 @@ const Modal = () => {
   );
 };
 
-export default Modal;
+export default LoginForm;
